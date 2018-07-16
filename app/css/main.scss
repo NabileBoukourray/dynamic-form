@@ -1,0 +1,22 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~sass-material-colors/sass/sass-material-colors-classes";
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+@import "~flatpickr/dist/flatpickr";
+@import "style";
+@import "switch-btn";
+@import "modal";
+@import "~jquery-ui/themes/base/autocomplete.css";
+
+.ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+  /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+ .ui-autocomplete {
+    height: 300px;
+  }
